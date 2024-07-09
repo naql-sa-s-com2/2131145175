@@ -43,6 +43,8 @@ body {
     border-radius: 5px;
     width: 100px;
     height: 30px;
+    
+    
 }
 .back-button:hover{
     background-color: #aee2e2;
@@ -79,21 +81,19 @@ body {
 .section-content {
     display: flex;
     flex-wrap: wrap;
+    
 }
+
 .section-content div {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     flex: 1;
-    min-width: 200px;
+    min-width: 350px;
 }
-@media (min-width: 769px) {
-    .section-content div:nth-child(n+4) {
-        flex: 100%;
-    }
-}
+
 @media (max-width: 600px) {
     .back-button {
-        position: absolute;
+        position:absolute;
         width: 64%;
-    
+        
     }
 }
